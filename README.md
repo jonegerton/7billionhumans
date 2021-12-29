@@ -20,6 +20,11 @@ Levels listed below with best times/line counts. OCD challenge targets are given
 
 | Level | Description | Line Count | Speed |
 | ----- | ----------- | ---------- | ----- |
+| 48 | Community Training Day | 6 (6) | 7 (8) |
+| 49 | Double Sided Destruction | 4 (7) | 13 (17) |
+| 50 | Cubical Communication | 10 (12) | 54 (60) |
+| 51 | Identify Yourselves | 6 (7) | 8 (27) |
+| 52 | The Mode Code | 24 (24) | 150 (158) |
 | 53 | 100 Cubes on the Floor | 15 (16) | 49 (80) |
 | 54 | Terrain Leveler | 25 (26) | 77 (90) |
 | 55 | Data Flowers | 8 (8) | 24 (25) |

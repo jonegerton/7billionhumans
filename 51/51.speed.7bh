@@ -1,0 +1,65 @@
+-- 7 Billion Humans (2231) --
+-- 51: Identify Yourselves --
+
+step s
+pickup c
+if w != worker:
+	write 1
+	drop
+	end
+endif
+if e != worker:
+	write 10
+	drop
+	end
+endif
+mem1 = set w
+if w == 1 and
+ w == datacube:
+	write 2
+	drop
+	end
+endif
+if e == 10 and
+ e == datacube:
+	write 9
+	drop
+	end
+endif
+mem1 = set w
+if w == 2 and
+ w == datacube:
+	write 3
+	drop
+	end
+endif
+if e == 9 and
+ e == datacube:
+	write 8
+	drop
+	end
+endif
+mem1 = set w
+if w == 3 and
+ w == datacube:
+	write 4
+	drop
+	end
+endif
+if e == 8 and
+ e == datacube:
+	write 7
+	drop
+	end
+endif
+mem1 = set w
+if w == 4 and
+ w == datacube:
+	write 5
+	drop
+	end
+endif
+write 6
+drop
+
+

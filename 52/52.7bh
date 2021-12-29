@@ -1,0 +1,39 @@
+-- 7 Billion Humans (2231) --
+-- 52: The Mode Code --
+
+mem1 = set s
+a:
+step w
+if s == datacube:
+	mem2 = calc mem2 + 1
+	jump a
+endif
+step n
+b:
+c:
+if c == mem2:
+	mem3 = calc mem3 + 1
+endif
+if n == datacube:
+	step n
+	jump b
+endif
+step e
+d:
+if c == mem2:
+	mem3 = calc mem3 + 1
+endif
+if s == datacube:
+	step s
+	jump d
+endif
+if e == datacube:
+	step e
+	jump c
+endif
+step mem1
+pickup c
+write mem3
+drop
+
+
