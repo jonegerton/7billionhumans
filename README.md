@@ -20,6 +20,16 @@ Levels listed below with best times/line counts. OCD challenge targets are given
 
 | Level | Description | Line Count | Speed |
 | ----- | ----------- | ---------- | ----- |
+| 53 | 100 Cubes on the Floor | 15 (16) | 49 (80) |
+| 54 | Terrain Leveler | 25 (26) | 77 (90) |
+| 55 | Data Flowers | 8 (8) | 24 (25) |
+| 56 | Local Maximums | 8 (8) | 13 (14) |
+| 57 | Neighborly Sweeper | 15 (16) | 96 (100) |
+| 58 | Good Neighbors | 5 (10) | 39 (175) |
+| 59 | Glory Hole | 6 (7) | 13 (15) |
+| 60 | Understaffed Sorting | 12 (12) | 152 (200) | 
+| 61 | Lazy Pathways | 11 (11) | 191 (250) |
+| 62 | The Sorting Floor | 43 (48) | 94 (174) |
 | 63 | Defrag Disordered | 16 (28) | 56 (95) |
 | 64 | Binary Counter | 17(17) | 48 (54) |
 | 65 | Defrag Ordered | 25 (25) | 466 (500) |
@@ -27,8 +37,8 @@ Levels listed below with best times/line counts. OCD challenge targets are given
 | 67 | Decimal Doubler | 24 (25) | 222 (250) |
 | 68 | Goobye, Humans! | 9 (9) | 46 (50) |
 
-## License
-You are free to quote or reuse these solutions, but if you do use the publicly please include a credit link back to this repo.
+## Licence
+You are free to quote or reuse these solutions, but if you do use them publicly please include a credit link back to this repo.
 
 ## Syntax
 

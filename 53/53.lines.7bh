@@ -1,0 +1,28 @@
+-- 7 Billion Humans (2231) --
+-- 53: 100 Cubes on the Floor --
+
+a:
+if c != datacube:
+	step w
+	jump a
+endif
+b:
+if nw == 0 and
+ n != wall:
+	jump b
+endif
+if n == datacube:
+	mem1 = calc n + 1
+endif
+c:
+pickup c
+write mem1
+drop
+if mem1 >= 90:
+	end
+endif
+mem1 = calc mem1 + 10
+step w
+jump c
+
+

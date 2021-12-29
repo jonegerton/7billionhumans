@@ -1,0 +1,45 @@
+-- 7 Billion Humans (2231) --
+-- 54: Terrain Leveler --
+
+step n
+a:
+step n
+if c != datacube:
+	jump a
+endif
+step n
+mem1 = set c
+step n
+mem1 = calc mem1 + c
+step n
+mem1 = calc mem1 + c
+step n
+mem1 = calc mem1 + c
+step n
+mem1 = calc mem1 + c
+step n
+if w == datacube:
+	listenfor ok
+endif
+pickup c
+mem1 = calc mem1 + w
+if e == worker:
+	write mem1
+	tell e ok
+	listenfor go
+	mem1 = set e
+	write mem1
+	tell w go
+else:
+	mem1 = calc mem1 / 35
+	write mem1
+	tell w go
+endif
+b:
+drop
+step s
+pickup c
+write mem1
+jump b
+
+

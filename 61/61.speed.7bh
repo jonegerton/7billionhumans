@@ -1,0 +1,27 @@
+-- 7 Billion Humans (2231) --
+-- 61: Lazy Pathways --
+
+a:
+step nw,w,sw,ne,se
+if c > 1 and
+ c == datacube and
+ c >= mem2:
+	mem2 = set c
+	mem1 = foreachdir nw,w,sw,n,s,ne,e,se:
+		if mem1 < mem2 and
+		 mem1 == datacube:
+			mem2 = set mem1
+		endif
+	endfor
+	if mem2 < c:
+		mem2 = calc mem2 + 1
+		if mem2 < c:
+			pickup c
+			write mem2
+			drop
+		endif
+	endif
+endif
+jump a
+
+
