@@ -1,0 +1,51 @@
+-- 7 Billion Humans (2231) --
+-- 66: Decimal Counter --
+
+step s
+if s == button:
+	a:
+	listenfor coffeetime
+	step s
+	step n
+	jump a
+endif
+pickup c
+step s
+drop
+tell everyone coffeetime
+if c == 1:
+	b:
+	pickup c
+	mem1 = calc myitem + 1
+	if mem1 <= 9:
+		write mem1
+		tell everyone coffeetime
+		drop
+	else:
+		write 0
+		drop
+		if w == 8:
+			step w
+			pickup c
+			write 9
+			tell everyone coffeetime
+			drop
+			step e
+		else:
+			tell everyone go
+			listenfor coffeetime
+		endif
+	endif
+	jump b
+endif
+step n
+listenfor go
+step s
+pickup c
+if myitem == 0:
+	write 1
+	tell everyone coffeetime
+	drop
+endif
+
+

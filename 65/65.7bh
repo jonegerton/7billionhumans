@@ -1,0 +1,48 @@
+-- 7 Billion Humans (2231) --
+-- 65: Defrag Ordered --
+
+a:
+step n
+if n != hole and
+ e != worker:
+	jump a
+endif
+mem1 = set w
+b:
+if myitem != something and
+ e != hole:
+	if e == datacube and
+	 c != datacube:
+		pickup e
+	endif
+	step e
+endif
+if myitem == something:
+	step mem1
+	if e != hole:
+		step e
+	endif
+	drop
+	mem1 = set c
+endif
+if e == hole:
+	step sw
+	c:
+	step w
+	if w != hole:
+		jump c
+	endif
+	if w == hole and
+	 myitem == something:
+		drop
+		mem1 = set c
+	endif
+	if w == hole and
+	 c == datacube and
+	 c != mem1:
+		pickup c
+	endif
+endif
+jump b
+
+

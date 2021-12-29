@@ -1,0 +1,39 @@
+-- 7 Billion Humans (2231) --
+-- 64: Binary Counter --
+
+comment 2
+step s
+if c != datacube:
+	a:
+	step s
+	tell nw ok
+	step n
+	listenfor coffeetime
+	jump a
+endif
+comment 1
+pickup c
+step s
+tell everyone coffeetime
+b:
+listenfor ok
+tell everyone coffeetime
+drop
+listenfor ok
+tell w ok
+pickup c
+jump b
+
+
+DEFINE COMMENT 1
+eJztjb8KQQEUxn/P4BmMBjEwyMQdJBkkg9noT0mRcopBMRiMCMlmUDeJga7cyXQz3QeQDJ7B4RWs91df
+nfN9ne8EUSIYqjgxomIQ0q1Okr4ksL+xhHE0u6vvSgb36zHEp/IzIEBXkw55aVOSFg1p0qOGRYX3735N
+SlakWZKTOUWZUWXKSCZYOt9Y4MiWJzteHHjISX9dNLtiis1KNda2spy1/0iRPQUxybLRTg8Pj7/4AKmF
+OW8;
+
+DEFINE COMMENT 2
+eJztj0FLAlEUhb9fFIqjYFjErIVSJsQWLaWF0KAwDDKLS+hQ4kpoVWRJzGIYpEXEECLhL/M4i37FHDjv
+nse7597zzhCqnFgFR2xL31IjsBobHH5oEFmT0E6JOOcBl9hc5uKb9JoLElpig4w6G3PI5c2PY/HU4TGy
+DjFXLLjkVTWjq/cef9ZnZ/fSY77N5+toMU/7rgm5UYY7Agba3WdSzJsyFJfMeLcnfm3OtvA8MhED3X2e
+1fPC0Fb49qHMn8qb6Ez1l5StZewpUaLEPw65REE3;
+

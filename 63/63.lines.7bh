@@ -1,0 +1,34 @@
+-- 7 Billion Humans (2231) --
+-- 63: Defrag Disordered --
+
+a:
+b:
+if n != hole:
+	if c == datacube and
+	 myitem == nothing:
+		pickup c
+	endif
+	if e == datacube and
+	 myitem == nothing:
+		pickup e
+	endif
+	if w == datacube and
+	 myitem == nothing:
+		pickup w
+	endif
+	step n
+	jump b
+endif
+c:
+if myitem != nothing and
+ c == nothing:
+	drop
+endif
+if s != hole:
+	step s
+	jump c
+endif
+step e
+jump a
+
+

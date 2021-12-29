@@ -1,0 +1,34 @@
+-- 7 Billion Humans (2231) --
+-- 67: Decimal Doubler --
+
+step s
+if s == button:
+	a:
+	listenfor coffeetime
+	step s
+	step n
+	jump a
+endif
+pickup c
+step s
+drop
+tell everyone coffeetime
+b:
+mem1 = calc c x 2
+if mem1 > 9:
+	mem1 = calc mem1 - 10
+else:
+	mem1 = calc mem1 + 0
+endif
+if e >= 5:
+	mem1 = calc mem1 + 1
+else:
+	mem1 = calc mem1 + 0
+endif
+pickup c
+write mem1
+drop
+tell everyone coffeetime
+jump b
+
+
