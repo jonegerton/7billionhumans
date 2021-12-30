@@ -1,0 +1,16 @@
+-- 7 Billion Humans (2231) --
+-- 41: Image Decrypter --
+
+pickup w
+mem1 = set myitem
+a:
+step w
+if mem1 > 0:
+	mem1 = calc mem1 - 1
+	jump a
+endif
+drop
+mem1 = nearest hole
+step mem1
+
+

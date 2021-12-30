@@ -1,0 +1,57 @@
+-- 7 Billion Humans (2231) --
+-- 13: Injection Sites 2 --
+
+step s
+pickup c
+if w == nothing:
+	step se
+	step se
+	step se
+	step s
+	step s
+	step se
+	step s
+	step se
+	drop
+endif
+if e == nothing:
+	step se
+	step s
+	step s
+	step s
+	step s
+	step s
+	step se
+	step s
+	drop
+endif
+if e == nothing:
+	step se
+	step se
+	step se
+	step se
+	step s
+	step se
+	drop
+endif
+if w == nothing:
+	step sw
+	step s
+	step s
+	step s
+	drop
+endif
+if w == nothing:
+	step s
+	step s
+	step s
+	step s
+	drop
+endif
+step e
+step e
+step se
+step se
+drop
+
+

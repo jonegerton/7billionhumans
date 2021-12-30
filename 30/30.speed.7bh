@@ -1,0 +1,91 @@
+-- 7 Billion Humans (2231) --
+-- 30: Fill the Floor --
+
+mem1 = nearest printer
+if e == wall and
+ s == wall:
+	mem2 = nearest wall
+	jump a
+endif
+if n == wall and
+ w == nothing:
+	step mem1
+	step nw
+	step w
+	step w
+	step nw
+	mem2 = nearest wall
+	jump b
+endif
+if n == wall and
+ nw == wall and
+ e == worker:
+	step mem1
+	step ne
+	step ne
+	step e
+	step e
+	step e
+	mem2 = nearest wall
+	jump c
+endif
+if s == wall and
+ w == nothing:
+	step w
+	step w
+	step w
+	step w
+	step w
+	step w
+	step w
+	step w
+	step w
+	mem2 = nearest wall
+	jump d
+endif
+if n == wall and
+ e == wall:
+	step w
+	step w
+	step w
+	step sw
+	mem2 = nearest wall
+	jump e
+endif
+if s == wall and
+ sw == wall and
+ se == wall:
+	step w
+	step w
+	step w
+	step w
+	step w
+	step w
+	mem2 = nearest wall
+	jump f
+endif
+if n == nothing and
+ s == nothing:
+	step n
+	mem2 = nearest wall
+	jump g
+endif
+g:
+e:
+f:
+a:
+d:
+c:
+b:
+h:
+takefrom mem1
+step mem2
+i:
+if c != nothing:
+	step nw,w,sw,n,s,ne,e,se
+	jump i
+endif
+drop
+jump h
+
+

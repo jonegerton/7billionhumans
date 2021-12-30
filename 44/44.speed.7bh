@@ -1,0 +1,34 @@
+-- 7 Billion Humans (2231) --
+-- 44: Unique Fashion Party --
+
+pickup s
+a:
+if e < myitem or
+ s < myitem or
+ se == myitem:
+	step e
+else:
+	if w == nothing or
+	 w > myitem and
+	 w != wall:
+		step w
+	endif
+endif
+if n < myitem:
+	step n
+else:
+	if s == nothing or
+	 s > myitem and
+	 s != wall:
+		step s
+	endif
+endif
+if sw == myitem or
+ w == myitem or
+ nw == myitem or
+ s == myitem:
+	mem1 = calc 1 / 0
+endif
+jump a
+
+

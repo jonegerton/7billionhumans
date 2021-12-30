@@ -1,0 +1,17 @@
+-- 7 Billion Humans (2231) --
+-- 15: Shred Lines --
+
+a:
+step n
+pickup c
+if n == wall:
+	b:
+	step s
+	if s != shredder:
+		jump b
+	endif
+	giveto s
+endif
+jump a
+
+

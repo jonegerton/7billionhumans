@@ -1,0 +1,11 @@
+-- 7 Billion Humans (2231) --
+-- 46: Compulsory Office Romance --
+
+if w == worker:
+	a:
+	listenfor hi
+endif
+tell everyone hi
+jump a
+
+

@@ -1,0 +1,11 @@
+-- 7 Billion Humans (2231) --
+-- 18: Uniquely Disposed --
+
+pickup w
+step sw
+a:
+step se
+giveto s
+jump a
+
+

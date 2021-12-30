@@ -1,0 +1,102 @@
+-- 7 Billion Humans (2231) --
+-- 41: Image Decrypter --
+
+pickup w
+step w
+step w
+if myitem == 12:
+	step w
+	step w
+	step w
+	step w
+	step w
+	step w
+	step w
+	step w
+	step w
+	step w
+	step w
+	drop
+	mem1 = calc 1 / 0
+endif
+if myitem == 11:
+	step w
+	step w
+	step w
+	step w
+	step w
+	step w
+	step w
+	step w
+	step w
+	step w
+	drop
+	mem1 = calc 1 / 0
+endif
+if myitem == 10:
+	step w
+	step w
+	step w
+	step w
+	step w
+	step w
+	step w
+	step w
+	step w
+	drop
+	mem1 = calc 1 / 0
+endif
+if myitem == 9:
+	step w
+	step w
+	step w
+	step w
+	step w
+	step w
+	step w
+	step w
+	drop
+	mem1 = calc 1 / 0
+endif
+if myitem == 7:
+	step w
+	step w
+	step w
+	step w
+	step w
+	step w
+	drop
+	mem1 = calc 1 / 0
+endif
+if myitem == 6:
+	step w
+	step w
+	step w
+	step w
+	step w
+	drop
+	mem1 = calc 1 / 0
+endif
+if myitem == 5:
+	step w
+	step w
+	step w
+	step w
+	drop
+	mem1 = calc 1 / 0
+endif
+if myitem == 4:
+	step w
+	step w
+	step w
+	drop
+	mem1 = calc 1 / 0
+endif
+if myitem == 3:
+	step w
+	step w
+endif
+drop
+mem1 = calc 1 / 0
+
+

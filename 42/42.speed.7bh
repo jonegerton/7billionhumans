@@ -1,0 +1,39 @@
+-- 7 Billion Humans (2231) --
+-- 42: Important Email Organization --
+
+mem2 = nearest shredder
+a:
+b:
+mem1 = nearest datacube
+step mem1
+if s == shredder or
+ c != datacube:
+	step nw,n,ne
+	step nw,n,ne
+	step nw,n,ne
+	step n
+	step n
+	jump b
+endif
+pickup c
+mem3 = calc myitem / 10
+step mem2
+c:
+if mem3 > c:
+	step e
+	jump c
+endif
+d:
+if mem3 < c:
+	step w
+	jump d
+endif
+giveto s
+step n
+step n
+step n
+step n
+step n
+jump a
+
+

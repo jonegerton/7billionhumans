@@ -1,0 +1,18 @@
+-- 7 Billion Humans (2231) --
+-- 34: Seek and Destroy 1 --
+
+mem1 = nearest shredder
+a:
+step n
+if c <= mem2 or
+ mem2 == 0 or
+ mem2 == nothing:
+	mem2 = set c
+endif
+if n == wall:
+	pickup mem2
+	giveto mem1
+endif
+jump a
+
+

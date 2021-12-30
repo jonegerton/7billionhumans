@@ -1,0 +1,56 @@
+-- 7 Billion Humans (2231) --
+-- 40: Printing Etiquette 2 --
+
+mem2 = nearest printer
+takefrom mem2
+step w
+step w
+a:
+step w,sw,s,se
+if c != nothing:
+	jump a
+endif
+write 1
+drop
+takefrom mem2
+step nw
+step nw
+b:
+step nw,w,sw,n
+if c != nothing:
+	jump b
+endif
+write 2
+drop
+takefrom mem2
+step n
+step n
+c:
+step nw,w,n,ne,e
+if c != nothing:
+	jump c
+endif
+write 3
+drop
+takefrom mem2
+step ne
+step ne
+d:
+step nw,n,ne,e,se
+if c != nothing:
+	jump d
+endif
+write 4
+drop
+takefrom mem2
+step e
+step e
+e:
+step w,sw,s,e,se
+if c != nothing:
+	jump e
+endif
+write 5
+drop
+
+

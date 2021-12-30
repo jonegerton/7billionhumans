@@ -1,0 +1,67 @@
+-- 7 Billion Humans (2231) --
+-- 20: Reverse Line --
+
+pickup s
+if w == nothing:
+	step se
+	step se
+	step e
+	step e
+	step e
+	step e
+	step ne
+	drop
+	end
+endif
+if e == nothing:
+	step sw
+	step w
+	step w
+	step w
+	step w
+	step w
+	step w
+	drop
+	end
+endif
+if w == nothing:
+	step se
+	step se
+	step e
+	step e
+	step ne
+	drop
+	end
+endif
+if e == nothing:
+	step sw
+	step w
+	step w
+	step w
+	step w
+	drop
+	end
+endif
+if w == nothing:
+	step se
+	step se
+	step ne
+	drop
+	end
+endif
+if e == nothing:
+	step sw
+	step w
+	step w
+	drop
+	end
+endif
+if w == nothing:
+	step se
+	drop
+	end
+endif
+step sw
+drop
+
+

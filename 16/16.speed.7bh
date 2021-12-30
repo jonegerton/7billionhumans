@@ -1,0 +1,47 @@
+-- 7 Billion Humans (2231) --
+-- 16: Little Exterminator 2 --
+
+if se != worker:
+	step s
+	step s
+	step s
+	pickup s
+	step e
+	step e
+	step se
+	step e
+	giveto s
+	step e
+	step e
+endif
+if se != worker:
+	step s
+	step s
+	step s
+	step s
+	pickup s
+	step e
+	step e
+	step e
+	step e
+	step se
+	giveto s
+	step e
+	end
+endif
+step s
+step s
+step s
+step s
+step s
+pickup s
+step e
+step e
+step e
+step e
+step e
+step se
+giveto s
+end
+
+

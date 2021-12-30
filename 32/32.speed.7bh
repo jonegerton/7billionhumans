@@ -1,0 +1,19 @@
+-- 7 Billion Humans (2231) --
+-- 32: Creative Writhing --
+
+a:
+if s == datacube:
+	step s
+else:
+	if w == datacube:
+		step w
+	else:
+		step e
+	endif
+endif
+pickup c
+write 99
+drop
+jump a
+
+

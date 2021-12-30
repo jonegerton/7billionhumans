@@ -1,0 +1,16 @@
+-- 7 Billion Humans (2231) --
+-- 44: Unique Fashion Party --
+
+pickup s
+a:
+step nw,w,sw,n,s,ne,e,se
+mem1 = nearest worker
+step mem1
+if nw == myitem or
+ w == myitem or
+ sw == myitem:
+	mem1 = calc 1 / 0
+endif
+jump a
+
+

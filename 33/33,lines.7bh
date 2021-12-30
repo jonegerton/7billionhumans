@@ -1,0 +1,14 @@
+-- 7 Billion Humans (2231) --
+-- 33: Data Backup Day --
+
+a:
+mem1 = nearest datacube
+drop
+mem2 = set c
+pickup mem1
+if myitem > mem2:
+	write mem2
+endif
+jump a
+
+

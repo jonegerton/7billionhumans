@@ -1,0 +1,170 @@
+-- 7 Billion Humans (2231) --
+-- 15: Shred Lines --
+
+if e == nothing:
+	comment 3
+	step n
+	step n
+	pickup n
+	step s
+	step s
+	giveto s
+	step n
+	step n
+	step n
+	step n
+	pickup n
+	step s
+	step s
+	step s
+	step s
+	giveto s
+	step n
+	step n
+	step n
+	step n
+	step n
+	pickup n
+	step s
+	step s
+	step s
+	step s
+	step s
+	giveto s
+	end
+endif
+if w != worker:
+	comment 4
+	step n
+	pickup n
+	step s
+	giveto s
+	step n
+	step n
+	step n
+	pickup n
+	step s
+	step s
+	step s
+	giveto s
+	step n
+	step n
+	step n
+	step n
+	pickup n
+	step s
+	step s
+	step s
+	step s
+	giveto s
+	end
+endif
+if w != worker:
+	comment 2
+	step n
+	step n
+	pickup n
+	step s
+	step s
+	giveto s
+	step n
+	step n
+	step n
+	pickup n
+	step s
+	step s
+	step s
+	giveto s
+	step n
+	step n
+	step n
+	step n
+	step n
+	pickup n
+	step s
+	step s
+	step s
+	step s
+	step s
+	giveto s
+	end
+endif
+if e != worker:
+	comment 0
+	step n
+	pickup n
+	step s
+	step s
+	giveto s
+	step n
+	step n
+	pickup n
+	step s
+	step s
+	giveto s
+	step n
+	step n
+	step n
+	step n
+	pickup n
+	step s
+	step s
+	step s
+	step s
+	giveto s
+	end
+endif
+comment 1
+step n
+pickup n
+step s
+step s
+giveto s
+step n
+step n
+step n
+pickup n
+step s
+step s
+step s
+giveto s
+step n
+step n
+step n
+step n
+step n
+pickup n
+step s
+step s
+step s
+step s
+step s
+giveto s
+end
+
+
+DEFINE COMMENT 0
+eJztjKEKAlEURM/HGA1rt7giaFOXRRGDwWTYYDRN0WAQWYwmTf6A2BQx+lHO/QnTO3C4DDPcBqZPph5t
+ugyVM7Oiw9k+yPnYb8w08a5kroI1Y2p714gXhY2+xYoBFUsbecGBkqMy38hbmrbSjg0n9tyo9fSf6C5M
+ufImkUj8lR/y2CHo;
+
+DEFINE COMMENT 1
+eJztjDsKwgAQBecwksoqhSAoCip+wF4iKKS0iMEiRbDYQqysLfwhASX4CcFcwMIiJ7DKYdxcwToDA4/H
+2zVRGjRp4UqHlXQ5MCDLa7G0H/PC4qNmTPnmPXNcJnj08aSOQ1XN9y4RtjrkKj21TSA1TlTUnB2GphIX
+NcSQO2V5YkrCiARbYmZ67ciNhezxdeNrXupOJGJNzEY3W81nHoQS8JYjqf5NKSgo+Isfa2E3mA;
+
+DEFINE COMMENT 2
+eJztja0KwgAURs/DiE3TgkGLQWVJVERwQbAsiUHMH/6ALOiCjDGGDDFoEYPBKD6Z1z2DcQcOfNzfCkab
+Oi4zM5PL5VfSmCoenzzX8NTHZ4SvKcu85nO1fNaQmAGxekRqEdEkpGH+WOMooKwDJRIcTvYno6OMrulZ
+nihlroSFba5sLtSeIwEpO7u95a4ND/Np+WX9t268KSgo+BtfwnsyDw;
+
+DEFINE COMMENT 3
+eJztjD0KwgAMRt95nFroUBwK6g0UBOsqCA5ubiKhiIOTk5O2S1WU4qBQRMQf3B1K8QjiMUx7BOc+eCQk
++WKiOFhUmKt7qtzVhBqfbCUuX9q4Wpu4lGlhZ3NMeprr08VjwiK/HWi2QSQ2oZQI89kZAx9Dllji46h1
+7TvqUPuRBJre6I8jnsSMuTCVq/pgxpOF1ogbJ2JeHEhkp25JZU3KijeBWlBQ8Dc/7Jw5eg;
+
+DEFINE COMMENT 4
+eJxTZgACVwYdBm+GBQ0+DA9A3IYoBqOGWIYsIN7GEMNwBojB4gzZDHENfgxpDPpADAKpDGsawoE4gGFV
+gynDGrDePgazhmkMWg0zGTQYZjNYNMxmCAOyOxpmMDwBy3cDzZoMZC9ieNGwmOFVwyogXsPwrmEtwzuG
+UTAKRgHdAQA58Chf;
+
